@@ -1,0 +1,59 @@
+html {font-family: 'Anek Tamil', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #FFE7CF;
+}
+header{background-color: #513754;
+       color: #ffad98;
+       padding: 0.5rem 3rem;
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;    
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+section article{
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    margin: 1rem 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 4px 3px 4px 1px rgba(0,0,0,0.75);
+}
+section article:hover {
+    transition:  box-shadow 0.5s ease;
+    box-shadow: 10px 10px 11px 1px rgba(0,0,0,0.51);
+    cursor: pointer;
+}
+.img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    background-color: #513754;
+    padding: 1rem;
+    color: #FFE7CF;
+}
+footer section {
+    float: right;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #FFE7CF;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+footer a:hover {
+    color: #f2766e;
+    transition: color 0.3s ease;
+}
+/* footer a:visited { */
+    /* color: gray */
+/* } */
